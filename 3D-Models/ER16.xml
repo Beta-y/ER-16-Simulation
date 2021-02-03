@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/06/21||14:12:54" using="Simscape Multibody Link Version 7.2" from="SolidWorks 27.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="ER16" uid="ER16" version="241">
+<AssemblyFile name="ER16.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="ER16_j6-1" uid="ER16_j6-1" entityUid="ER16_j6*:*默认">
+<Transform>
+<Rotation>-1 7.218235441023685e-16 0 -7.1915624619148981e-16 -0.99631065183655809 0.085820073625073295 0 0.085820073625073295 0.99631065183655809</Rotation>
+<Translation>-0.10817233302815268 2.5301894162228624 -0.24333324698169662</Translation>
+</Transform>
+</Instance>
+<Instance name="ER16_j4-1" uid="ER16_j4-1" entityUid="ER16_j4*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.10717233302813189 0.012601532679752836 -0.13510381018312323</Translation>
+</Transform>
+</Instance>
+<Instance name="ER16_j2-1" uid="ER16_j2-1" entityUid="ER16_j2*:*默认">
+<Transform>
+<Rotation>1 0 0 0 0.98911990099968861 0.14711159521385911 0 -0.14711159521385911 0.98911990099968861</Rotation>
+<Translation>-0.10717233302813588 0.048020456022306729 0.069301235950336465</Translation>
+</Transform>
+</Instance>
+<Instance name="ER16_j3-1" uid="ER16_j3-1" entityUid="ER16_j3*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.10717233302813189 0.012601532679752864 -0.089603810183123273</Translation>
+</Transform>
+</Instance>
+<Instance name="ER16_j5-1" uid="ER16_j5-1" entityUid="ER16_j5*:*默认">
+<Transform>
+<Rotation>1 0 0 0 0.99631065183655798 0.085820073625073393 0 -0.085820073625073393 0.99631065183655798</Rotation>
+<Translation>-0.10817233302815181 0.095206183134294825 -0.033588987042015017</Translation>
+</Transform>
+</Instance>
+<Instance name="ER16_base-1" uid="ER16_base-1" entityUid="ER16_base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.08317233302813383 0.01999999999999999 0.010432074562246235</Translation>
+</Transform>
+</Instance>
+<Instance name="ER16_j1-1" uid="ER16_j1-1" entityUid="ER16_j1*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.083172333028133871 0.020000000000000018 0.010432074562246246</Translation>
+</Transform>
+</Instance>
+<Instance name="Floor-1" uid="Floor-1" entityUid="Floor*:*默认">
+<Transform>
+<Rotation>0.99889266185657744 0 -0.047047317554581171 0 1 0 0.047047317554581171 0 0.99889266185657744</Rotation>
+<Translation>-0.083172333028133816 0 0.010432074562246235</Translation>
+</Transform>
+</Instance>
+<Instance name="Tool-1" uid="Tool-1" entityUid="Tool*:*默认">
+<Transform>
+<Rotation>0.92762773533004439 -2.6637223492296055e-16 0.37350607042784872 -0.37212807649288132 -0.085820073625073004 0.92420539364834664 0.032054318463529442 -0.99631065183655798 -0.079609080542684243</Rotation>
+<Translation>-0.1081723330281518 1.2264486256853804 -1.1397533221075871</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_base-1</Uid>
+</InstancePath>
+<Position>0.077925750267512528 0.27200000000000002 -0.13691687069782918</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j1-1</Uid>
+</InstancePath>
+<Position>-0.11233199999999999 0.27200000000000002 0.112332</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ER16_base-1</Uid>
+</InstancePath>
+<Position>0 0.32850000000000001 0</Position>
+<Axis>-2.6240156185291313e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j1-1</Uid>
+</InstancePath>
+<Position>0 0.32700000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j1-1</Uid>
+</InstancePath>
+<Position>0.097000000000000003 0.51673651846981938 -0.20338328642593889</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j2-1</Uid>
+</InstancePath>
+<Position>0.12100000000000201 0.34166600000000197 -0.23033399999998908</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j1-1</Uid>
+</InstancePath>
+<Position>0.1195 0.41200000000000003 -0.16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j2-1</Uid>
+</InstancePath>
+<Position>0.11600000000003 0.41200000000004311 -0.16000000000002401</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j3-1</Uid>
+</InstancePath>
+<Position>0.12299999999999803 1.0919999999999992 -0.22643935934142287</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j2-1</Uid>
+</InstancePath>
+<Position>0.12300000000000201 1.0502044000000024 -0.20179559999998906</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j2-1</Uid>
+</InstancePath>
+<Position>0.12000000000000201 1.0920000000000023 -0.15999999999998901</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j3-1</Uid>
+</InstancePath>
+<Position>0.12249999999999808 1.0920000000000001 -0.16000000000001402</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j3-1</Uid>
+</InstancePath>
+<Position>0.073369999999999991 1.14863 -0.28400000000001402</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j4-1</Uid>
+</InstancePath>
+<Position>-0.072941154444000039 1.149058845556 -0.23850000000001403</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j3-1</Uid>
+</InstancePath>
+<Position>0 1.222 -0.29900000000001492</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j4-1</Uid>
+</InstancePath>
+<Position>0 1.222 -0.19400000000001399</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="同心6">
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>ER16_j4-1</Uid>
+</InstancePath>
+<Position>-0.036794228634019877 1.22200000000001 -0.90999999999998815</Position>
+<Axis>-1 -2.4781763942525792e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j5-1</Uid>
+</InstancePath>
+<Position>-0.04350000000000008 1.2220000000000097 -0.90999999999998815</Position>
+<Axis>1 1.0675221390626505e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j5-1</Uid>
+</InstancePath>
+<Position>-0.034499999999999989 1.2565000000000097 -0.97499999999998788</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j6-1</Uid>
+</InstancePath>
+<Position>-0.034500000000000017 1.2565000000000104 -0.97499999999998743</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j5-1</Uid>
+</InstancePath>
+<Position>0 1.2220000000000097 -0.9749999999999881</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j6-1</Uid>
+</InstancePath>
+<Position>0 1.2220000000000104 -0.94199999999998729</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j4-1</Uid>
+</InstancePath>
+<Position>-0.036000000000019905 1.1691730771540099 -0.85686999999998803</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j5-1</Uid>
+</InstancePath>
+<Position>-0.034999999999999989 1.2751300000000096 -0.96312999999998783</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_j6-1</Uid>
+</InstancePath>
+<Position>0 1.2220000000000102 -1.0049999999999906</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Tool-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_j6-1</Uid>
+</InstancePath>
+<Position>-0.030866000000000005 1.1911340000000106 -1.0049999999999903</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tool-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>ER16_base-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000036 0</Position>
+<Axis>1.0675221390626504e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Floor-1</Uid>
+</InstancePath>
+<Position>0 0.02 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ER16_base-1</Uid>
+</InstancePath>
+<Position>-0.16000000000000003 0 0.070000000000000007</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Floor-1</Uid>
+</InstancePath>
+<Position>0 0.02 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Floor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>ER16</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="ER16_base" uid="ER16_base*:*Default" version="296">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ER16_base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.3620043649040685</Mass>
+<CenterOfMass>2.811339557341129e-05 0.15525404231598899 0.016463049215464987</CenterOfMass>
+<Inertia>0.09315136927384135 0.076755900116036613 0.08167020329149409 -0.0020953752821482102 3.5430757302252366e-05 -1.9802017234385551e-05</Inertia>
+</MassProperties>
+<GeometryFile name="ER16_base_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ER16_j1" uid="ER16_j1*:*默认" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ER16_j1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>14.726995652328236</Mass>
+<CenterOfMass>-0.087444710478403756 0.42185758785722671 -0.079400682627853117</CenterOfMass>
+<Inertia>0.1899728628937814 0.22364182564388291 0.17724787025324057 -0.013974212008525118 -0.0083786904160256803 0.016944457128145015</Inertia>
+</MassProperties>
+<GeometryFile name="ER16_j1_默认_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ER16_j2" uid="ER16_j2*:*默认" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ER16_j2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.9053294782897816</Mass>
+<CenterOfMass>0.17150509786167836 0.69887499877374126 -0.16025657150719344</CenterOfMass>
+<Inertia>0.1759945365622298 0.010347396466907082 0.17432906110578522 5.3120209515941766e-05 -2.4361864268688547e-05 -0.00217887585618788</Inertia>
+</MassProperties>
+<GeometryFile name="ER16_j2_默认_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ER16_j3" uid="ER16_j3*:*默认" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ER16_j3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.7900336182202743</Mass>
+<CenterOfMass>-0.029208259754452424 1.1873541386641635 -0.12564263527514771</CenterOfMass>
+<Inertia>0.1243133032890084 0.11210613659020227 0.10766376210613554 -0.025552878161547325 0.0011955724411873837 -0.013353411819003659</Inertia>
+</MassProperties>
+<GeometryFile name="ER16_j3_默认_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ER16_j4" uid="ER16_j4*:*默认" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ER16_j4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.3139858073080593</Mass>
+<CenterOfMass>0.0079168977203989566 1.2219568619078318 -0.59433542214474488</CenterOfMass>
+<Inertia>0.24496568124897836 0.24864850819590648 0.014264983928127906 0.00062390562677487669 0.0082798205978308909 -5.4266732984450153e-05</Inertia>
+</MassProperties>
+<GeometryFile name="ER16_j4_默认_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ER16_j5" uid="ER16_j5*:*默认" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ER16_j5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.29466284736133824</Mass>
+<CenterOfMass>0.002084460881620473 1.2214552133545653 -0.91850833427364731</CenterOfMass>
+<Inertia>0.00055407930248541808 0.00049354551002272085 0.00044470731241675292 -6.4409428726793925e-06 -7.2984930051835754e-06 -3.3315953290787696e-07</Inertia>
+</MassProperties>
+<GeometryFile name="ER16_j5_默认_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ER16_j6" uid="ER16_j6*:*默认" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ER16_j6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.073282524682282413</Mass>
+<CenterOfMass>-5.2337174236610484e-14 1.2220222807366232 -0.9813980652287595</CenterOfMass>
+<Inertia>4.5004324153589609e-05 4.4028708418086812e-05 4.7180142792475197e-05 -6.7729136080866825e-09 0 -4.5698136367716008e-08</Inertia>
+</MassProperties>
+<GeometryFile name="ER16_j6_默认_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Floor" uid="Floor*:*默认" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Floor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>20</Mass>
+<CenterOfMass>0 0.010000000000000002 0</CenterOfMass>
+<Inertia>1.6673333333333333 3.333333333333333 1.6673333333333331 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Floor_默认_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tool" uid="Tool*:*默认" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tool.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10569892129748415</Mass>
+<CenterOfMass>0 0.024548891247739974 0</CenterOfMass>
+<Inertia>9.0820645369734095e-05 4.3020407088538428e-05 9.0820645369734095e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tool_默认_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
